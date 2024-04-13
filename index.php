@@ -39,6 +39,8 @@
          }
       </style>
       <style>#header .site-title {background: url(https://www.pngkey.com/png/detail/360-3601772_your-logo-here-your-company-logo-here-png.png) no-repeat top left;background-size: contain;text-indent: -9999px;}</style>
+      <meta name="google-site-verification" content="tDzMNGr5AlQvP1jqQKqZgR1Rbs33id2sR4bzE3JH2YI" />
+      
       <meta name="monetag" content="304531efc9923d5e9862b00bcc4a919d">
    </head>
    <body class="home blog halimthemes halimmovies" data-masonry="">
