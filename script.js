@@ -31,6 +31,10 @@ let data = [{
 }
 ]
 
+const oclick = (link)=>{
+  window.location.href="https://dolatiaschan.com/4/7359951"
+}
+
 window.onload = () => {
 
   data.map(item => {
@@ -40,7 +44,7 @@ window.onload = () => {
       style="background-image: url(${item.img});">
 
       <div class="item-desc">
-      <a href="https://drive.google.com/file/d/12mb_Ukvu55CWU3_nUdE2aUwAOYguOXJ0/view?usp=sharing" target="_blank">
+      <a href="${item.link}" target="_blank" onclick="${oclick}"=>
           <h3>${item.title}</h3>
         </a>
       </div>
