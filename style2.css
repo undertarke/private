@@ -479,9 +479,6 @@ input[type="email"]:focus {
     font-size: 1.1rem;
   }
 
-  #form {
-    justify-content: center;
-  }
 }
 
 @media (max-width: 815px) {
