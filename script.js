@@ -31,8 +31,9 @@ let data = [{
 }
 ]
 
-const oclick = (link)=>{
-  window.location.href="https://dolatiaschan.com/4/7359951"
+const oclick = ()=>{
+  // window.location.href="https://dolatiaschan.com/4/7359951"
+  window.open('https://dolatiaschan.com/4/7359951', '_blank');
 }
 
 window.onload = () => {
@@ -44,7 +45,7 @@ window.onload = () => {
       style="background-image: url(${item.img});">
 
       <div class="item-desc">
-      <a href="${item.link}" target="_blank" onclick="${oclick}"=>
+      <a href="${item.link}" target="_blank" =>
           <h3>${item.title}</h3>
         </a>
       </div>
